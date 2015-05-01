@@ -14,7 +14,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/nerdtree'
 Plugin 'bling/vim-airline'
 Plugin 'tomasr/molokai'
-"Plugin 'Shougo/neocomplcache.vim'
+Plugin 'Shougo/neocomplcache.vim'
 Plugin 'scrooloose/syntastic'
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -41,6 +41,11 @@ set incsearch
 " highlighted search results
 set hlsearch
 " use 256 colors when possible
+"use two space to replace tab
+set expandtab
+set tabstop=2
+"auto indent withe two space 
+set shiftwidth=2
 
 set encoding=utf-8
 set fillchars+=stl:\ ,stlnc:\
